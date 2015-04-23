@@ -47,5 +47,3 @@ for i in range(25): #TODO: get pages count from the first page
 				raise Exception('Something went wrong with fetching a listing...')
 	else:
 		raise Exception('Something went wrong with fetching listing IDs...')
-
-	exit(0)
